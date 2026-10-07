@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GitFolio - Developer Portfolio Template",
+  title: "Coding Good Vibes - David Mason",
   description: "Minimal and modern developer portfolio template built with Next.js and Tailwind CSS.",
 };
 

@@ -73,7 +73,7 @@ export default function Home() {
             <ProjectCard 
               title="PROJECT_ONE"
               description="Your first amazing project goes here. Describe what problem it solves and the tech you used to build it."
-              tags={["REACT", "NEXTJS", "TAILWIND"]}
+              tags={["AWS", "NEXTJS", "TAILWIND"]}
               color="cyan"
               href="#"
             />

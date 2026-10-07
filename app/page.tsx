@@ -119,7 +119,7 @@ export default function Home() {
               
               <Image 
                 src={`\${basePath}/me.jpeg`}
-                alt="David"
+                alt="David Photo"
                 fill
                 className="object-cover z-0 opacity-60 group-hover:opacity-100 transition-all duration-500 grayscale group-hover:grayscale-0"
               />

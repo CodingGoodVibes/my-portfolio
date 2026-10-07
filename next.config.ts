@@ -7,14 +7,6 @@ const nextConfig: NextConfig = {
   basePath: isProd ? "/my-portfolio" : "", 
   images: {
     unoptimized: true, 
-  },
-};
-
-export default nextConfig;
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
     remotePatterns: [
       {
         protocol: 'https',
@@ -22,6 +14,6 @@ const nextConfig = {
       },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+export default nextConfig;

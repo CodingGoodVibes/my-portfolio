@@ -72,9 +72,9 @@ export default function Home() {
             {/* Project 1 */}
             <ProjectCard 
               title="E-Commerce Payment API System"
-              description="Your first amazing project goes here. Describe what problem it solves and the tech you used to build it."
+              description="Working with a Sandbox Payment System to trigger fake Purchases"
               tags={["Python", "AWS", "HTML"]}
-              color="cyan"
+              color="green"
               href="#"
             />
             {/* Project 2 */}

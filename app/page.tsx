@@ -208,7 +208,7 @@ function ProjectCard({ title, description, tags, color, href }: { title: string,
   };
 
   return (
-    <Link href={href} className={`group block space-y-4 p-6 bg-[#0a0a1a] border border-cyan-900/30 transition-all duration-300 ${colorClasses[safeColor]}`}>
+    <Link   target="_blank" rel="noopener noreferrer" href={href} className={`group block space-y-4 p-6 bg-[#0a0a1a] border border-cyan-900/30 transition-all duration-300 ${colorClasses[safeColor]}`}>
       <div className="flex justify-between items-start">
         <h3 className={`text-xl font-bold text-white tracking-wider transition-colors ${textColors[safeColor]}`}>
           {title}

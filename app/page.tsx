@@ -44,7 +44,7 @@ export default function Home() {
             </h1>
           </div>
           <p className="text-lg md:text-xl text-cyan-100/70 max-w-2xl leading-relaxed font-light border-l-2 border-fuchsia-500/50 pl-6">
-            A beginner-friendly portfolio template that showcases your projects beautifully. Fork it, customize it, deploy it—no design skills required.
+            I&apos;m excited to show what I am working on whilst further my learning.
           </p>
           <div className="pt-8 flex gap-6">
             <Link 
@@ -71,9 +71,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Project 1 */}
             <ProjectCard 
-              title="PROJECT_ONE"
+              title="E-Commerce Payment API System"
               description="Your first amazing project goes here. Describe what problem it solves and the tech you used to build it."
-              tags={["AWS", "NEXTJS", "TAILWIND"]}
+              tags={["Python", "AWS", "HTML"]}
               color="cyan"
               href="#"
             />

@@ -74,7 +74,7 @@ export default function Home() {
               title="E-Commerce Payment API System"
               description="Working with a Sandbox Payment System to trigger fake Purchases"
               tags={["Python", "AWS", "HTML"]}
-              color="green"
+              color="cyan"
               href="#"
             />
             {/* Project 2 */}

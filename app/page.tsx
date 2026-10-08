@@ -77,30 +77,30 @@ export default function Home() {
               color="cyan"
               href="https://github.com/CodingGoodVibes/SandboxPaymentProcessor/tree/main"
             />
-            {/* Project 2 */}
+            {/* Project 2
             <ProjectCard 
               title="PROJECT_TWO"
               description="Your second project showcase. Tell visitors what makes this project special and what you learned building it."
               tags={["JAVASCRIPT", "API", "CSS"]}
               color="fuchsia"
               href="#"
-            />
+            /> */}
             {/* Project 3 */}
-            <ProjectCard 
+            {/* <ProjectCard 
               title="PROJECT_THREE"
               description="Another project to highlight your skills. Share the impact or results of this work."
               tags={["TYPESCRIPT", "NODE", "EXPRESS"]}
               color="purple"
               href="#"
-            />
+            /> */}
             {/* Project 4 */}
-            <ProjectCard 
+            {/* <ProjectCard 
               title="PROJECT_FOUR"
               description="Keep building and adding to your portfolio. Each project tells part of your developer story."
               tags={["PYTHON", "DJANGO", "POSTGRESQL"]}
               color="yellow"
               href="#"
-            />
+            /> */}
           </div>
         </section>
 

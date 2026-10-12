@@ -73,18 +73,18 @@ export default function Home() {
             <ProjectCard 
               title="E-Commerce Payment API System"
               description="Working with a Sandbox Payment System to trigger fake Purchases"
-              tags={["Python", "AWS IAM", "AWS Amplify", "AWS API Gateway", "AWA Lambda", "AWS Secrets Manager", "HTML"]}
+              tags={["Python", "IAM", "Amplify", "API Gateway", "Lambda", "KMS", "HTML"]}
               color="cyan"
               href="https://github.com/CodingGoodVibes/SandboxPaymentProcessor/tree/main"
             />
-            {/* Project 2
+            {/* Project 2 */}
             <ProjectCard 
-              title="PROJECT_TWO"
-              description="Your second project showcase. Tell visitors what makes this project special and what you learned building it."
-              tags={["JAVASCRIPT", "API", "CSS"]}
+              title="Photo Geo Location Tool"
+              description="A Photo Geo Location tool to verify where the Photo was taken"
+              tags={["Html", "Javascript", "Gateway API", "IAM","KMS" , "Amplify", "Lambda", "DynamoDB" , "CSS"]}
               color="fuchsia"
-              href="#"
-            /> */}
+              href="https://github.com/CodingGoodVibes/Green-Scheme"
+            />
             {/* Project 3 */}
             {/* <ProjectCard 
               title="PROJECT_THREE"
@@ -154,7 +154,7 @@ export default function Home() {
         </section>
 
         {/* Contact */}
-        <section id="contact" className="py-20 border-t border-cyan-900/30">
+        {/* <section id="contact" className="py-20 border-t border-cyan-900/30">
           <div className="max-w-3xl mx-auto text-center space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">
               READY TO <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">LAUNCH?</span>
@@ -176,7 +176,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <footer className="py-8 text-center text-xs font-mono text-cyan-900/50 border-t border-cyan-900/20">

@@ -81,7 +81,7 @@ export default function Home() {
             <ProjectCard 
               title="Photo Geo Location Tool"
               description="A Photo Geo Location tool to verify where the Photo was taken"
-              tags={["Html", "Javascript", "Gateway API", "IAM","KMS" , "Amplify", "Lambda", "DynamoDB" , "CSS"]}
+              tags={["Javascript", "API Gateway", "IAM","KMS" , "Amplify", "Lambda", "DynamoDB"]}
               color="fuchsia"
               href="https://github.com/CodingGoodVibes/Green-Scheme"
             />
